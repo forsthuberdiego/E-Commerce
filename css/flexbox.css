@@ -59,7 +59,7 @@
     
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:420px) {
     .item{
         display: flex;
         flex-direction: column;
