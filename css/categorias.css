@@ -8,10 +8,10 @@ h3{
 }
 .titulo_categorias{
     display: flex;
-    
-    
-}
-.categoria{
+    justify-content: space-between;
+}    
+
+    .categoria{
     padding-bottom: 3rem;
 }
 .ver_todos{
