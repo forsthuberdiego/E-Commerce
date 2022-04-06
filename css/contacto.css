@@ -78,18 +78,6 @@ label {
     margin-top: 3px;
   }
 
-/*.form_nombre{
-    
-    background: #ffffff;
-    color: #464646;
-    font-size: 1rem;
-    border-style: none;
-    margin-top: 5px;
-    border-radius: 4px;
-    height: 45px;
-    
-}   */ 
-
 .form_mensaje{
     
     background: #ffffff;
@@ -131,7 +119,7 @@ label {
 }
 
 @media screen and (max-width:768px) {
-
+  
 }
 
 @media screen and (max-width:320px) {
@@ -141,8 +129,9 @@ label {
     }
 
     .contenedor_contacto{
-   
+        display: flex;
         flex-direction: column;
+        justify-content: center;
         
     }
 
