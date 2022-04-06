@@ -1,0 +1,52 @@
+
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 700 bold;
+    color: #464646;
+    
+}
+.titulo_categorias{
+    display: flex;
+    
+    
+}
+.categoria{
+    padding-bottom: 3rem;
+}
+.ver_todos{
+    display: flex;
+    justify-content:right;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+    color: #2A7AE4;
+}
+
+.item_titulo{
+font-weight: 500;
+font-size: 0.8rem;
+margin-top: 0.25rem;
+color: #464646;
+}
+
+.item_precio{
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+    color: #464646
+}
+
+.item a{
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+    color: #2A7AE4;
+}
+
+@media screen and (max-width:768px) {
+
+    h3{
+        margin-left: 20px;
+    }
+}

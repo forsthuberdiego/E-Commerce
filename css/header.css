@@ -1,0 +1,109 @@
+.header{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    height: 115px;
+    width: 100%;
+    text-align: center;
+   
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.sec_logo{
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+.logo_alura{
+    margin-left: 0.2rem;
+    height: auto;
+}
+
+.cuadro_busqueda{
+    margin-left: 2rem;
+    background-color: #d8d7d7;
+    border-style: none;
+    border-radius: 10px 0 0 10px;
+    height: 27px;
+    color: #ffffff;
+    padding: 0 0 0 1rem;
+    width: 75%;
+    font-size: 0.85rem;
+    font-weight: 400;
+}
+
+.boton_lupa{
+    background: url("../img/lupa.png") no-repeat center / cover;
+    background-size: 20PX;
+    border-radius: 0 10px 10px 0;
+    width: 10%;
+    height: 27px;
+    border-style: none;
+    background-color: #d8d7d7;
+}
+
+.boton_login{
+    background-color: #ffffff;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    padding: 0.7rem 3rem 0.7rem 3rem;
+    font-size: 0.85rem;
+    font-weight: 400;
+    
+    
+}
+
+.boton_login:hover{
+    background-color: #2A7AE4;
+    color: #ffffff;
+}
+
+@media screen and (max-width:768px) {
+
+}
+
+@media screen and (max-width:320px) {
+
+    .cuadro_busqueda{
+        display: none;
+    }
+
+    .boton_lupa{
+        position: absolute;
+        right: 5px;
+        background-color: #ffffff;
+
+    }
+    .sec_logo{
+        width: 35%;
+    }
+
+    .sec_login{
+         width: 52%;
+    }
+    .boton_login{
+        width: 50px;
+        text-align: center;
+        padding: 0.5rem 4rem  0.5rem 2rem;
+    }
+    .logo_alura{
+        margin-left: 0.2rem;
+        width: 50px;
+    } 
+    .logo_icono{
+        margin-left: 0.2rem;
+        width: 30px;
+    }
+    .logo_geek{
+        margin-left: 0.2rem;
+        width: 50px;
+    }
+   }

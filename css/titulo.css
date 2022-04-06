@@ -1,0 +1,51 @@
+.titulo{
+ display: flex;
+ width: 100%;
+ justify-content: center;
+ background: url("../img/titulofondo.jpg") no-repeat center / cover;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 352px;
+    padding: 2rem ;
+    width: 90%;
+    
+}
+
+.titulo_texto{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2.75rem;
+}
+
+.titulo_subtexto{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.titulo_boton{
+    margin-top: 0.75rem;
+}
+
+.boton_consolas{
+    background-color: #2A7AE4;
+    color: #ffffff;
+    border: 1px solid #2A7AE4;
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    font-size: 0.85rem;
+    font-weight: 400;
+}
+
+.boton_consolas:hover{
+    background-color: #ffffff;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    font-size: 0.85rem;
+    font-weight: 400;
+}
